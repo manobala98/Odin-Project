@@ -1,68 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+body{
+    background-image: url("back.jpg");
+    
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-size:auto;
-    color: #fff;
-}
-
-.header {
+nav {
     background-color: black;
-    padding: 20px;
+    color: #d8b114;
+    padding: 15px;
    
+    
+}
+.free{
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+    
 }
 
-h1{
+li{
     display: inline;
-}
-
-.nav-link {
-    background-color: black;
-    text-decoration: none;
-    display: inline;
-    color: gray;
+    color:  #d8b114;
     cursor: pointer;
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+    display: inline;
+    margin-left: 50%;
 }
 
-.searchbar {
-    padding-left: 20px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.search-input {
-    padding: 10px;
-    border:lch(from color l c h);
-    border-radius: 5px;
-}
-
-.content {
-    
-    
-    color:black;
-    padding: 20px;
-    margin: 20px;
-}
-
-.recipes {
-    
-    color: black;
-    padding: 20px;
-    margin: 20px;
-}
-
-.recipe-link {
-   
+li:hover{
+    color:#d8b114;
     text-decoration: none;
 }
 
-.recipe-link:hover {
-    text-decoration: underline;
+input{
+    width: 60%;
+    padding: 15px;
+    color: black;
+    }
+    .searchbar{
+        padding: 50px;
+        text-align: center;
+       
+       
+    }
+
+    .recipes{
+        text-align: center;
+    }
+
+    .cheesy{
+        text-align: center;
+    }
+
+    .box{
+        border-color: #a55b50;
+        border-width: 5px;
+        border-style: solid;
+        display: inline-block;
+        width: 220px;
+        text-align: center;
+        
+
+    }
+
+    .box:hover{
+        background-color: black;
+        color: white;   
+    }
+    h1{
+        text-align: center;
+        color:  #d8b114;
+        
+    }
+.about{
+    text-align:left;
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    line-height: 2rem;
 }
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+
+}
+
+h2{
+    padding-bottom: 10px;
+    color:  #d8b114;
+}
+.num{
+    line-height: 0;
+    text-align:center;
+}
+
+.space{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
