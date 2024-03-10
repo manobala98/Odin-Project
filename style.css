@@ -1,8 +1,11 @@
 
 
-body{
-    background-image: url("back.jpg");
-    
+body{ 
+    background-image: url("images\down.jpg width=100%") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
 }
 
 nav {
@@ -106,6 +109,7 @@ h2{
     padding-top: 30px;
     text-align: center;
 }
+
 
 
 
